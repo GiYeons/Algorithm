@@ -75,7 +75,7 @@ for k in range(1, N + 1):
       graph[a][b] = min(graph[a][b], graph[a][k] + graph[k][b])
 
 # 결과 출력
-distance = graph[1][k] + graph[k][x]
+distance = graph[1][K] + graph[K][X]
 
 # 도달할 수 없는 경우
 if distance >= INF:
