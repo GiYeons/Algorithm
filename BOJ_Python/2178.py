@@ -43,7 +43,7 @@ print(distance[n-1][m-1])
 """
 
 ## 정답
-
+graph = [list(map(int, read().strip())) for _ in range(n)]
 """
-
+문자열->리스트 변환은 위 한줄로 해결 가능
 """
